@@ -23,21 +23,34 @@
   padding: 7.5px 10px 7.5px 0;
 }
 .item {
-  /*order: 1;*/
-  position: 
+  /*order: 1;
+  position: relative;*/
   display: block;
   width: auto;
   text-align: center;
   padding: 10px;
 }
-.item.button {
+.item .button {
   width: auto;
   order: 1;
   display: block;
   padding: 9px 5px;
 }
+
+.button a {
+  background: #0080ff;
+  border: 1px royalblue solid;
+}
+
+.button .2 a {
+  background: transparent;
+  border: 1px #0080ff solid;
+}
 ul {
   list-style: none;
+}
+ul li a {
+  text-decoration: none;
 }
 /*Welcome section*/
 .welcome-section {
