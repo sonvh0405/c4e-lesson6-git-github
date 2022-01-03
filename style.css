@@ -85,6 +85,9 @@ ul li a {
   background-color: #74EBD5;
   width: 100%;
 }
+.projects-section a {
+  text-decoration: none;
+}
 .projects-section-header {
   max-width: 550px;
   margin: 0 auto 6rem auto;
@@ -115,8 +118,7 @@ ul li a {
   object-fit: cover;
 }
 .project-title {
-  font-size: 2rem;
-  padding: 2rem 0.5rem;
+  font-size: 20px;
 }
 .btn {
   display: inline-block;
