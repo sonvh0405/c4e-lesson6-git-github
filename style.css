@@ -58,6 +58,48 @@
   background-color: #74EBD5;
   background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
 }
+.projects-section-header {
+  max-width: 640px;
+  margin: 0 auto 6rem auto;
+  border-bottom: 0.2rem solid #fff;
+}
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 4rem;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-bottom: 6rem;
+}
+.project {
+  background: #000;
+  border-radius: 10px;
+}
+.code {
+  color: #fff;
+  transition: color 0.3s ease-out;
+}
+.project-image {
+  width: 100%;
+  object-fit: cover;
+}
+.project-title {
+  font-size: 2rem;
+  padding: 2rem 0.5rem;
+}
+.btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  border-radius: 2px;
+}
+.btn-show-all {
+  font-size: 2rem;
+  background: gray;
+}
+.btn-show-all:hover {
+  background: red;
+}
 /*Main*/
 /*body {
   font-family: "Roboto", sans-serif;
