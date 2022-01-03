@@ -1,4 +1,3 @@
-
 /*Navigation bar*/
 .nav-bar {
   display: block;
@@ -97,10 +96,9 @@ ul li a {
 }
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: auto auto auto;
   grid-gap: 4rem;
   width: 100%;
-  max-width: 1280px;
   margin: 0 auto;
   margin-bottom: 6rem;
 }
