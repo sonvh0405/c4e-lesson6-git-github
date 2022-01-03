@@ -1,7 +1,7 @@
 
 /*Navigation bar*/
 .nav-bar {
-  display:;
+  display: block;
   position: fixed;
   top: 0;
   left: 0;
@@ -30,17 +30,19 @@
   width: auto;
   text-align: center;
   padding: 10px;
+  font-size: 20px;
 }
 .item .button {
   width: auto;
-  order: 1;
+  /*order: 1;*/
   display: block;
-  padding: 9px 5px;
+  /*padding: 9px 5px;*/
 }
 
 .button a {
   background: #0080ff;
   border: 1px royalblue solid;
+  padding: 10px;
 }
 
 .button .secondary a {
