@@ -84,7 +84,7 @@ ul li a {
   text-align: center;
   padding: 10rem 2rem;
   background-color: #74EBD5;
-  
+  width: 100%;
 }
 .projects-section-header {
   max-width: 550px;
@@ -170,6 +170,7 @@ footer {
   padding: 1rem; /*1 rem = 16px*/
   background-color: black;
   color: white;
+  width: 100%;
 }
 footer a {
   text-decoration: none;
