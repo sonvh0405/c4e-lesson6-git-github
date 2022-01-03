@@ -65,14 +65,14 @@ ul li a {
   height: 100vh;
 }
 .welcome-section h1 {
-  font-size: 6rem;
+  font-size: 60px;
   font-weight: 700;
   font-style: italic;
   color: #000;
   text-align: center;
 }
 .welcome-section p {
-  font-size: 3rem;
+  font-size: 30px;
   font-weight: 200;
   font-style: italic;
   color: #000;
@@ -87,12 +87,13 @@ ul li a {
   
 }
 .projects-section-header {
-  max-width: 640px;
+  max-width: 550px;
   margin: 0 auto 6rem auto;
   border-bottom: 0.2rem solid #fff;
   font-weight: 700;
   text-align: center;
-  font-size: 4.2rem;
+  font-size: 42px;
+  color:
 }
 .projects-grid {
   display: grid;
@@ -131,6 +132,7 @@ ul li a {
 .btn-show-all:hover {
   background: red;
 }
+
 /*Contact Section*/
 .contact-section {
   display: flex;
@@ -156,6 +158,8 @@ ul li a {
 }
 .contact-details {
   font-size: 24px;
+  display: inline-block;
+  padding: 10px 20px;
 }
 
 /*Footer*/
