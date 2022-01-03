@@ -1,5 +1,6 @@
+/*Navigation bar*/
 .nav-bar {
-  display: block;
+  display:;
   position: fixed;
   top: 0;
   left: 0;
@@ -35,6 +36,9 @@
   display: block;
   padding: 9px 5px;
 }
+ul {
+  list-style: none;
+}
 /*Welcome section*/
 .welcome-section {
   display: flex;
@@ -56,12 +60,15 @@
   text-align: center;
   padding: 10rem 2rem;
   background-color: #74EBD5;
-  background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+  
 }
 .projects-section-header {
   max-width: 640px;
   margin: 0 auto 6rem auto;
   border-bottom: 0.2rem solid #fff;
+  font-weight: 700;
+  text-align: center;
+  font-size: 4.2rem;
 }
 .projects-grid {
   display: grid;
@@ -101,27 +108,6 @@
   background: red;
 }
 /*Main*/
-/*body {
-  font-family: "Roboto", sans-serif;
-  font-size: 1.8rem; /* 18px */
-  font-weight: 400;
-  line-height: 1.4;
-  color: #fff;
-  background: black;
-}*/
-h1, h2 {
-  font-weight: 700;
-  text-align: center;
-}
-h1 {
-  font-size: 6rem;
-}
-h2 {
-  font-size: 4.2rem;
-}
-ul {
-  list-style: none;
-}
 /*Footer*/
 footer {
   font-weight: 300;
