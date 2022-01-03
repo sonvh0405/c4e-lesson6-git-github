@@ -1,0 +1,22 @@
+/*Main*/
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.8rem; /* 18px */
+  font-weight: 400;
+  line-height: 1.4;
+  color: #fff;
+}
+/*Footer*/
+footer {
+  font-weight: 300;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1rem; /*1 rem = 16px*/
+  background-color: black;
+}
+footer p {
+  margin: 2rem;
+}
+footer i {
+  vertical-align: middle;
+}
