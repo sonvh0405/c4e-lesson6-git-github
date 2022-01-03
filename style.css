@@ -1,7 +1,8 @@
-html {
-  box-sizing: border-box;
-  font-size: 62.5%;
-  scroll-behavior: smooth;
+.nav {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: flex-start;
 }
 /*Main*/
 body {
@@ -10,6 +11,7 @@ body {
   font-weight: 400;
   line-height: 1.4;
   color: #fff;
+  background: black;
 }
 h1, h2 {
   font-weight: 700;
@@ -32,6 +34,9 @@ footer {
   padding: 1rem; /*1 rem = 16px*/
   background-color: black;
   color: white;
+}
+footer a {
+  text-decoration: none;
 }
 footer p {
   margin: 2rem;
