@@ -1,3 +1,8 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
 /*Main*/
 body {
   font-family: "Roboto", sans-serif;
@@ -6,6 +11,19 @@ body {
   line-height: 1.4;
   color: #fff;
 }
+h1, h2 {
+  font-weight: 700;
+  text-align: center;
+}
+h1 {
+  font-size: 6rem;
+}
+h2 {
+  font-size: 4.2rem;
+}
+ul {
+  list-style: none;
+}
 /*Footer*/
 footer {
   font-weight: 300;
@@ -13,6 +31,7 @@ footer {
   justify-content: space-evenly;
   padding: 1rem; /*1 rem = 16px*/
   background-color: black;
+  color: white;
 }
 footer p {
   margin: 2rem;
